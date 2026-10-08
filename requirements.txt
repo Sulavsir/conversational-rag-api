@@ -1,0 +1,21 @@
+# Runtime
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+sqlalchemy[asyncio]==2.1.3
+asyncpg==0.31.0
+redis==8.1.0
+qdrant-client==1.19.1
+pymupdf==1.28.2
+sentence-transformers==6.1.0
+openai==3.24.0
+python-multipart==0.0.32
+email-validator==2.3.0
+python-dateutil==2.9.0.post0
+
+# Tests
+httpx==0.28.1
+pytest==9.1.1
+pytest-asyncio==1.4.0
+fakeredis==2.39.0
